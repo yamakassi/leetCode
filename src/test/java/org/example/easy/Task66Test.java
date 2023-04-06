@@ -20,8 +20,8 @@ class Task66Test {
         assertAll(
                 () -> assertArrayEquals(new int[]{3}, task66.plusOne(new int[]{2})),
                 () -> assertArrayEquals(new int[]{1, 0}, task66.plusOne(new int[]{9})),
-                () -> assertArrayEquals(new int[]{2,7,6,6}, task66.plusOne(new int[]{2, 7, 6, 5})),
-                () -> assertArrayEquals(new int[]{2,7,7,0}, task66.plusOne(new int[]{2, 7, 6, 9}))
+                () -> assertArrayEquals(new int[]{2 ,7 ,6 , 6}, task66.plusOne(new int[]{2, 7, 6, 5})),
+                () -> assertArrayEquals(new int[]{2, 7, 7, 0}, task66.plusOne(new int[]{2, 7, 6, 9}))
                 );
     }
 }

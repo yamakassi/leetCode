@@ -1,9 +1,5 @@
 package org.example.easy;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 // 66 plus one
 public class Task66 {
     public int[] plusOne(int[] digits) {

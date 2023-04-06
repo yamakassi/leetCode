@@ -16,12 +16,13 @@ class Task83 {
         }
         return head;
     }
-     static class ListNode {
+
+    static class ListNode {
         int val;
         ListNode next;
 
 
-         ListNode(int val) {
+        ListNode(int val) {
             this.val = val;
         }
 
