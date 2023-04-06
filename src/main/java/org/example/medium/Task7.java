@@ -1,10 +1,11 @@
-package org.example.easy;
+package org.example.medium;
+
 //reverse integer
 public class Task7 {
 
     public int reverse(int x) {
         int res = 0;
-        int div = 0;
+        int div;
         while (x != 0) {
             div = x % 10;
             x = x / 10;

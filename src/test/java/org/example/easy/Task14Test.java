@@ -18,11 +18,11 @@ class Task14Test {
     void longestCommonPrefix() {
 
             assertAll(
-                    () -> assertEquals("car", task14.longestCommonPrefix( new String[]{"car"})),
-                   () -> assertEquals("", task14.longestCommonPrefix( new String[]{""})),
-                   () -> assertEquals("", task14.longestCommonPrefix( new String[]{})),
-                   () -> assertEquals("", task14.longestCommonPrefix( new String[]{"dog","racecar","car"})),
-                   () -> assertEquals("fl", task14.longestCommonPrefix( new String[]{"flower","flow","flight"})),
+                    () -> assertEquals("car", task14.longestCommonPrefix(new String[]{"car"})),
+                   () -> assertEquals("", task14.longestCommonPrefix(new String[]{""})),
+                   () -> assertEquals("", task14.longestCommonPrefix(new String[]{})),
+                   () -> assertEquals("", task14.longestCommonPrefix(new String[]{"dog","racecar","car"})),
+                   () -> assertEquals("fl", task14.longestCommonPrefix(new String[]{"flower","flow","flight"})),
                    () -> assertEquals("", task14.longestCommonPrefix( null))
             );
 

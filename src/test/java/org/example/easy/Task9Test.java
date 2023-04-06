@@ -16,11 +16,11 @@ class Task9Test {
     @Test
     void isPalindrome() {
         assertAll(
-                () -> assertTrue( task9.isPalindrome(121)),
-                () -> assertFalse( task9.isPalindrome(-121)),
-                () -> assertTrue( task9.isPalindrome(0)),
-                () -> assertTrue( task9.isPalindrome(1234321)),
-                () -> assertTrue( task9.isPalindrome(12221)),
+                () -> assertTrue(task9.isPalindrome(121)),
+                () -> assertFalse(task9.isPalindrome(-121)),
+                () -> assertTrue(task9.isPalindrome(0)),
+                () -> assertTrue(task9.isPalindrome(1234321)),
+                () -> assertTrue(task9.isPalindrome(12221)),
                 () -> assertFalse(task9.isPalindrome(129987221))
 
                 );

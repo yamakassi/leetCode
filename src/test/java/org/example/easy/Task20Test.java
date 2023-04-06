@@ -17,12 +17,12 @@ class Task20Test {
     @Test
     void isValid() {
         assertAll(
-                () -> assertTrue( task20.isValid("[](){}")),
-               () -> assertTrue( task20.isValid("[]{()}[()()(){}]")),
-               () -> assertFalse( task20.isValid("[}")),
-               () -> assertFalse( task20.isValid("[")),
-               () -> assertFalse( task20.isValid("[[](){]}")),
-               () -> assertFalse( task20.isValid("[[](]][){}"))
+                () -> assertTrue(task20.isValid("[](){}")),
+               () -> assertTrue(task20.isValid("[]{()}[()()(){}]")),
+               () -> assertFalse(task20.isValid("[}")),
+               () -> assertFalse(task20.isValid("[")),
+               () -> assertFalse(task20.isValid("[[](){]}")),
+               () -> assertFalse(task20.isValid("[[](]][){}"))
            );
 
     }

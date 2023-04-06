@@ -13,12 +13,12 @@ public class Task1 {
         value.put(target - nums[0], 0);
         for (int i = 1; i < nums.length; i++) {
             if (value.containsKey(nums[i])) {
-                return new int[]{value.get(nums[i]) ,i};
+                return new int[]{value.get(nums[i]), i};
             } else {
                 value.put(target - nums[i], i);
             }
         }
 
-        return new int[]{ -1,-1};
+        return new int[]{-1, -1};
     }
 }
