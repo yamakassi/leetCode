@@ -1,5 +1,7 @@
 package org.example.medium;
 
+import org.example.util.ListNode;
+
 public class Task2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode res = new ListNode(0);
@@ -18,31 +20,16 @@ public class Task2 {
             if (pointer1 != null) {
                 pointer1 = pointer1.next;
             }
-            if (pointer2 !=  null) {
+            if (pointer2 != null) {
                 pointer2 = pointer2.next;
             }
 
         }
-        if(buff>0){
-            currentNode.next=new ListNode(buff);
+        if (buff > 0) {
+            currentNode.next = new ListNode(buff);
         }
         return res;
     }
 
-    public class ListNode {
-        int val;
-        ListNode next;
 
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 }
