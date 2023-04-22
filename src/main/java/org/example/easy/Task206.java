@@ -5,8 +5,6 @@ import org.example.util.ListNode;
 public class Task206 {
 
 
-
-
     public ListNode reverseList(ListNode head) {
         if (head == null) return null;
         ListNode res = new ListNode(head.val, null);

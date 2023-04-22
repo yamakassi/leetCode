@@ -4,7 +4,7 @@ package org.example.easy;
 public class Task125 {
     public boolean isPalindrome(String s) {
 
-        if (s == null){
+        if (s == null) {
             new IllegalArgumentException("Input string cannot be null");
         }
 

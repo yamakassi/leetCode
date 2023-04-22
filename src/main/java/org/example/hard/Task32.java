@@ -36,7 +36,7 @@ public class Task32 {
 
         if (!stack.isEmpty()) {
             max2 = max2 - (stack.size() * 2 + 1);
-            if (max2 > maxCounter1 || maxCounter1 == 0){
+            if (max2 > maxCounter1 || maxCounter1 == 0) {
                 maxCounter1 = max2;
             }
 

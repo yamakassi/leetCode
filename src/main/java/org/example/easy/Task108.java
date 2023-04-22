@@ -5,7 +5,6 @@ import org.example.util.TreeNode;
 public class Task108 {
 
 
-
     class Solution {
         public TreeNode sortedArrayToBST(int[] nums) {
             TreeNode rootNods = calcSubBTS(nums, 0, nums.length - 1);
@@ -13,7 +12,7 @@ public class Task108 {
         }
 
         private TreeNode calcSubBTS(int[] nums, int start, int end) {
-            if (start > end){
+            if (start > end) {
                 return null;
             }
 

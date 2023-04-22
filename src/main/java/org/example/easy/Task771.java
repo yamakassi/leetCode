@@ -10,9 +10,9 @@ public class Task771 {
 
         for (Character c : jewels.toCharArray()) {
             uniqJewels.add(c);
-         }
+        }
         for (Character c : stones.toCharArray()) {
-            if (uniqJewels.contains(c)){
+            if (uniqJewels.contains(c)) {
                 res++;
             }
         }
